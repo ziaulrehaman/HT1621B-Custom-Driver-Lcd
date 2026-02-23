@@ -1,0 +1,45 @@
+#######################################
+# Datatypes (KEYWORD1 - Classes)
+#######################################
+
+CustomDisplayControl	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+clear	KEYWORD2
+writeMem	KEYWORD2
+setIcon	KEYWORD2
+updateBattery	KEYWORD2
+setDigitRaw	KEYWORD2
+printFloat	KEYWORD2
+printString	KEYWORD2
+
+#######################################
+# Constants (LITERAL1 - Icons)
+#######################################
+
+CDC_BATT_NAME	LITERAL1
+CDC_PC_NAME	LITERAL1
+CDC_OUT_NAME	LITERAL1
+CDC_TEMP	LITERAL1
+CDC_LOAD_STAT	LITERAL1
+CDC_FAULT_DOT	LITERAL1
+CDC_UNIT_C	LITERAL1
+CDC_UNIT_K	LITERAL1
+CDC_UNIT_W	LITERAL1
+CDC_UNIT_A	LITERAL1
+CDC_BULB	LITERAL1
+CDC_WARNING	LITERAL1
+CDC_LOAD_ARR	LITERAL1
+CDC_PERCENT	LITERAL1
+CDC_VOLT_UNIT	LITERAL1
+CDC_BATT_C1	LITERAL1
+CDC_BATT_C2	LITERAL1
+CDC_BATT_C3	LITERAL1
+CDC_BATT_C4	LITERAL1
+CDC_BATT_BOX	LITERAL1
+CDC_CHG_ARR	LITERAL1
+CDC_PV_SUN	LITERAL1
