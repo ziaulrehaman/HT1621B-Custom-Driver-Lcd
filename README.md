@@ -35,7 +35,7 @@ A lightweight Arduino library to control a custom 8‑digit alphanumeric segment
 
 1. **Download** the library as a ZIP file from the repository or clone it:
    ```
-   git clone https://github.com/yourusername/CustomDisplayControl.git
+   git clone https://github.com/ziaulrehaman/HT1621B-Custom-Driver-Lcd.git
    ```
 2. In the Arduino IDE, go to **Sketch** → **Include Library** → **Add .ZIP Library** and select the downloaded file.
 3. Alternatively, copy the `CustomDisplayControl` folder into your Arduino `libraries` directory.
@@ -53,7 +53,7 @@ CustomDisplayControl lcd(10, 11, 12);
 
 void setup() {
   lcd.begin();                     // Initialize the display
-  lcd.printString(0, "ZIA ");      // Top row: "ZIA "
+  lcd.printString(0, "Err ");      // Top row: "Err "
   lcd.printFloat(1, 188.8);        // Bottom row: "188.8"
   lcd.setIcon(CDC_BULB, true);     // Turn on the bulb icon
 }
@@ -161,7 +161,7 @@ The following macros are defined in the header for easy icon access:
 
 The library comes with a complete example that:
 - Turns on **all** icons.
-- Displays `"ZIA "` on the top row.
+- Displays `"Err "` on the top row.
 - Displays `"188.8"` on the bottom row (this number lights every segment of a typical 7‑segment display).
 
 ```cpp
@@ -187,7 +187,7 @@ void setup() {
     lcd.setIcon(allIcons[i], true);
   }
 
-  lcd.printString(0, "ZIA ");
+  lcd.printString(0, "Err ");
   lcd.printFloat(1, 188.8);
 }
 
@@ -237,5 +237,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 This library is released under the [MIT License](LICENSE). You are free to use, modify, and distribute it in personal and commercial projects.
 
 ---
-
-*Happy making!*
